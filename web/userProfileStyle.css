@@ -1,0 +1,37 @@
+body{padding: 0;margin: 0}
+#logo{margin-right: 450px}
+#header{height: 200px;background-color: #E5E0C7;display: inline-block;width: 1536px;text-align: center}
+#header ul{list-style: none;}
+#header ul li{list-style: none;display: inline;margin-right: 50px;text-transform: capitalize;font-size: 17px}
+
+a{text-decoration: none;color: #662200}
+#header a:hover{color: #f1f1f1}
+#header a:focus{color: #f1f1f1}
+#account{color: #662200;letter-spacing: 3px}
+#item{position: relative;top: -45px}
+
+#accoConrainer{display: inline-block;padding-top: 50px;padding-left: 400px;padding-right: 300px}
+#accoFooter{display: inline-block}
+#accoleft{;display: inline-block}
+#accoright{display: inline-block;margin-left: 50px;position: relative;top: 50px}
+#accouserName{position: relative;right: 20px;top: -15px}
+
+#accod1{padding: 5px;position: relative;top: -10px;right: 90px;width: 250px;background-color: #f1f1f1;margin-bottom: 10px}
+#accod1:hover{background-color: #F5DEB3;color: black}
+#accod1 ul{list-style: none;margin: 0}
+#accod1 ul li{display: inline}
+#usericon{position: relative;left: -20px;border-right: 1px solid #CCC;padding-right: 20px;cursor: pointer}
+#itemhr{position: relative;top: -5px;font-weight: bold}
+
+.acoLabel{display: block;margin-bottom: 5px;font-weight: bold}
+.cooName{width: 300px;padding: 5px;margin-bottom: 15px}
+
+#accoright ul{list-style: none;margin: 0;position: relative;top: -20px;left: -20px}
+#accoright #usericon{border: none;padding: 0;}
+#accoright ul li{display: inline;border: none}
+#accoright #itemhr{font-size: 20px}
+
+#cooUpdatebutton{padding: 10px;border: none;background-color: #f1f1f1;cursor: pointer;font-weight: bold}
+#cooUpdatebutton:hover{background-color: #F5DEB3;color: black;font-weight: bold}
+
+#accoFooter{background-color: #E5E0C7;height: 10px;width: 1535px;display: block;margin-top: 144px}

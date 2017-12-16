@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration</title>
+        <link rel="stylesheet" href="signUpStyle.css">
+        <script src="myJs.js"></script>
+        <style>
+            .logo{position: relative;left: -450px}
+            #pass2{}
+            #correctPass2True,#correctPass2False{position: relative;top: -50px;left: 320px}
+            #textF{margin-bottom: 0;padding-bottom: 0}
+            #pass2{display: block;margin-bottom: 50px}
+            #type{}
+            #correctPass2True,#correctPass2False{display: none}
+            #correctPass2False{position: relative;top: -160px;display: none}
+        </style>
+        <script>
+            function checkMatchPass(){
+                //----------------------------------------------------
+                //var pass1 = document.getElementById("pass1").value;
+                //var pass2 = document.getElementById("pass2").value;
+                var e = document.getElementById("userEmail").value;
+                //----------------------------------------------------
+                
+                //_____________________________________________________
+                var xmlhttp= new XMLHttpRequest();
+                //_____________________________________________________
+                
+                xmlhttp.open("GET", "checkPassword?userEmail=" + e ,true);
+                xmlhttp.send();
+                xmlhttp.onreadystatechange = function ()
+                {
+                    if (xmlhttp.readyState == 4 && xmlhttp.status == 200)
+                    {
+                        document.write(xmlhttp.responseText.charAt(0));
+                        if(xmlhttp.responseText.charAt(0)=='m'){//new 
+                            //document.getElementById("correctPass2False").style.display="none";
+                            //document.getElementById("correctPass2True").style.display="inline";
+                        }
+                        else{
+                         //   alert();
+                            document.getElementById("correctPass2False").style.display="inline";
+                           // document.getElementById("correctPass2True").style.display="none";
+                            //document.getElementById("userEmail").value="UserFolund";
+                        }
+                    }
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <div id="backGround">
+            <div id="header">
+                <ul>
+                    <li><a href="Welcome.jsp" id="logo" class="logo"><img src="images/bookSite.jpg" width="130" height="70" class="logo"></a></li>
+                   <!-- <li id="home"><a href="BookSite.html">home</a></li>-->
+                </ul>
+            </div>
+            
+            <div id="container">
+                <div id="registe">
+                    <span>Registration form</span>
+                </div>
+                <form action="Registration">
+                    <div id="fileds_">
+                        <div id="textF">
+                            <input type="text" placeholder="Username" name="username" id="userName">
+                                <input type="email" placeholder="Email address" name="usermailmsil" id="userEmail" >
+                            <input type="password" placeholder="Password"   name="password" id="pass1">
+                            <!--<img src="images/true.png" width="25" height="25" id="correctPass">-->
+                            <input type="password" placeholder="Confirm Password" name="confirmedPassword" id="pass2" >
+<!--                            <img src="images/true2.png" width="27" height="27" id="correctPass2True">
+                            <img src="images/false2.jpg" width="25" height="25" id="correctPass2False" title="Password NOT Matched">-->
+                        </div>
+                        <div id="secFields">
+                            <!--<input type="text" placeholder="First name" id="FLname1" name="firstName">
+                            <input type="text" placeholder="Last name"  id="FLname2" name="secondName">-->
+                            
+                            <select name="type" id="type">
+                                <option value="admin">Admin</option>
+                                <option value="student">Student</option>
+                            </select>
+                            <br><br>
+                            <input type="checkbox" id="che"><label id="cheText">I agree to the Terms of Service</label><br>
+                            <input type="checkbox" id="che"><label id="cheText">I want to receive news and special offers</label>
+                        </div>
+
+                    </div>
+                    <div id="bott">
+                        <input type="submit" value="Submit" onclick="toDo()">
+                    </div>
+                </form>
+            </div>
+        </div>    
+        <div id="footer">
+        </div>
+    </body>
+</html>

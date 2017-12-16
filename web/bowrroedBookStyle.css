@@ -1,0 +1,24 @@
+body{padding: 0;margin: 0}
+#logo{margin-right: 450px}
+#header{height: 200px;background-color: #E5E0C7;display: inline-block;width: 1520px;text-align: center}
+#header ul{list-style: none;}
+#header ul li{list-style: none;display: inline;margin-right: 50px;text-transform: capitalize;font-size: 17px}
+
+a{text-decoration: none;color: #662200}
+#header a:hover{color: #f1f1f1}
+#header a:focus{color: #f1f1f1}
+#BooksList{color: #662200;letter-spacing: 2px;font-size: 30px}
+#item{position: relative;top: -45px}
+
+
+
+#accoFooter{background-color: #E5E0C7;height: 10px;width: 1515px;display: block;margin-top: 20px}
+#Mspan{font-size: 45px;font-weight: bold}
+#BookListContainer{padding: 40px 130px;text-align: center;}
+
+#d1 ul{list-style: none;}
+#d1 ul li{display: inline}
+#d11{display: inline;margin-right: 80px;float: left;margin-bottom: 20px}
+
+.RBottoun{color: white;width: 150px;border-radius: 4px;height: 27px;margin-bottom: 3px;border: none;background-color: #3CB371;cursor: pointer;display: inline}
+.DBottoun{color: white;width: 150px;border-radius: 4px;height: 27px;margin-bottom: 3px;border: none;background-color: #B22222;cursor: pointer;display: inline}

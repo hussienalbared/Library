@@ -1,0 +1,112 @@
+body{margin: 0;padding: 0}
+#backGround{height: 720px;background: url(images/bookBackground7.jpg) no-repeat center center}
+#header{display: inline-block;margin-top: 20px;display: block}
+#header ul{list-style: none;padding-right: 50px;position: relative;top: -40px}
+#header ul li{list-style: none;display: inline;margin-right: 50px;text-transform: capitalize;font-size: 20px}
+a{text-decoration: none;color: #808080}
+#signup{padding-right: 0px}
+#logo{margin-right: 200px;position: relative;top: 40px}
+#header a:hover{color: #F5DEB3}
+#header a:focus{color: #F5DEB3}
+
+#container{display: inline-block;text-align: center;margin-top: 130px;margin-left: 520px;}
+#container p{font-family:Dosis,sans-serif;font-weight:400;font-size:40px;margin-bottom:20px;margin-top:0;color:#000}
+
+.search,input{position:relative;width:200px;height:50px;padding:0;display:inline-block;float:left}input{color:#666;z-index:2;border:0 none}input:focus{outline:0 none}input:focus+.search{-webkit-transform:translate(0,0);-ms-transform:translate(0,0);transform:translate(0,0);-webkit-transition-duration:.3s;transition-duration:.3s}input:focus+.search .fa{-webkit-transform:translate(0,0);-ms-transform:translate(0,0);transform:translate(0,0);-webkit-transition-duration:.3s;transition-duration:.3s;color:#000}.search{z-index:1;width:50px;border:0 none;background:#e3ae70;cursor:pointer;border-radius:0 5px 5px 0;-webkit-transform:translate(-50px,0);-ms-transform:translate(-50px,0);transform:translate(-50px,0);-webkit-transition-duration:.3s;transition-duration:.3s}
+
+.form_{position:relative; left: 90px}
+#content{margin-top: 50px}
+
+#EBimages{margin-left: 100px;margin-bottom: 100px}
+#EBimages ul{list-style: none;}
+#EBimages ul li{list-style: none}
+#d1{border: 1px solid #CCC;height:230px;width:150px;margin:  45px;float: left}
+#d1 button{}
+#d1 img{border: 1px solid #000}
+
+#EB{margin-left: 130px}
+.RBottoun{color: white;width: 150px;border-radius: 4px;height: 27px;margin-bottom: 3px;border: none;background-color: #3CB371}
+.DBottoun{color: white;width: 150px;border-radius: 4px;height: 27px;margin-bottom: 3px;border: none;background-color: #B22222;}
+
+#EBFooter{margin-top: 50px}
+#EBFooter img{margin-left: 350px}
+
+/*-------------------------*/
+
+/*==========================*/
+
+/*-----------------------*/
+#popUpUpdateBookContainer{text-align: center; border-radius: 4px;background-color: #E3E7E8;display: none;width: 450px;height: 500px;padding: 40px;position: fixed;z-index: 1;left: 0;top: 0; margin-left: 550px;margin-top: 160px;padding: 0px;z-index: 1;left: 0;top: 0;overflow: auto;padding-left: 20px}
+#Updatebook{width: 314px;height: 40px;padding: 10px;margin-bottom: 15px;background-color: #999;border: none;color: white}
+#updateBookHeader{position: relative;top: -10px;}
+#popUpUpdateBookContainer .animate{position: relative;top: -35px}
+#popUpUpdateBookContainer .LognamePass{margin-bottom: 10px;width: 350px}
+#popUpUpdateBookContainer #Updatebook{margin-top: 25px;width: 360px}
+#popUpUpdateBookContainer .close{color: black;font-size: 20px;display: inline;;position: relative;top: 5px;left: 17px}
+/*----------------------*/
+.booImages{cursor: pointer}
+
+/*------------------------*/
+#BorrwoingInContainer{border-radius: 4px;background-color: #E3E7E8;display: none;width: 260px;height: 450px;position: fixed;z-index: 1;left: 0;top: 0; margin-left: 550px;margin-top: 160px;padding: 40px;z-index: 1;left: 0;top: 0;overflow: auto;}
+.period{display: block;width: 300px;margin-bottom: 20px;height: 25px;background-color: none;padding: 5px}
+#Boorbutton{width: 314px;height: 40px;padding: 10px;margin-bottom: 15px;background-color: #808080;border: none;color: white}
+/*------------------------*/
+
+/*----------------------*/
+#InputContainerISBN,#InputContainerAuthor,#InputContainerYear{border-radius: 4px;background-color: #E5E0C7;display: none;width: 300px;height: 170px;padding: 40px;position: fixed;z-index: 1;left: 0;top: 0; margin-left: 550px;margin-top: 160px;padding: 40px;z-index: 1;left: 0;top: 0;overflow: auto;}
+.INputContainerAll{border-radius: 4px;background-color: #E5E0C7;display: none;width: 300px;height: 170px;padding: 40px;position: fixed;z-index: 1;left: 0;top: 0; margin-left: 550px;margin-top: 160px;padding: 40px;z-index: 1;left: 0;top: 0;overflow: auto;}
+/*----------------------*/
+
+
+#lobot{list-style: none;display: inline;margin-right: 10px;text-transform: capitalize;font-size: 20px;border: none;background-color: white;color: #808080;cursor: pointer}
+#lobot:hover{color: #F5DEB3}
+
+#LogInContainer{border-radius: 4px;background-color: #E3E7E8; display: none;width: 300px;height: 220px;padding: 40px;position: fixed;z-index: 1;left: 0;top: 0; margin-left: 550px;margin-top: 160px;padding: 40px;z-index: 1;left: 0;top: 0;overflow: auto;}
+
+.LognamePass{display: block;width: 300px;margin-bottom: 20px;height: 25px;background-color: none;padding: 5px}
+#Logbutton{width: 314px;height: 40px;padding: 10px;margin-bottom: 15px;background-color: #999;border: none;color: white}
+#notRegise{display: inline;margin-left: 50px;color: #808080}
+#creatAccount{text-decoration: none;color: black}
+
+.close{cursor: pointer;color: black;font-weight: bold;margin-left: 300px;position: relative;top: -25px;font-size: 20px}
+.close:hover{}
+
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+
+/*==========================*/
+li.dropdown {display: inline;}
+.dropdown-content {display: none;position: absolute;background-color: #f9f9f9;min-width: 160px;box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);}
+.dropdown-content a {color: black;padding: 12px 16px;text-decoration: none;display: block;text-align: left;}
+.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown:hover .dropdown-content {display: inline;}
+/*==========================*/
+
+.dropbtn{cursor: pointer;display: inline}
+#LibraryCategories{height: 600px;border: 0px solid #000;margin-left: 100px;}
+#arrowImg{position: relative;top: 5px}

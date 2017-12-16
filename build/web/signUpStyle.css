@@ -1,0 +1,33 @@
+ body{padding: 0;margin: 0;height: 800px}
+#backGround{height: 720px;background: url(images/bookBackground7.jpg) no-repeat center center}
+#header{display: inline-block;float: right;margin-top: 20px;display: block}
+#header ul{list-style: none}
+#header ul li{list-style: none;display: inline;margin-right: 50px;text-transform: capitalize;font-size: 20px}
+a{text-decoration: none;color: #808080}
+#logo{margin-right: 350px}
+#header a:hover{color: #F5DEB3}
+#header a:focus{color: #F5DEB3}
+#Litem{padding-right: 30px}
+
+#container{ display: inline-block;margin-top: 20px;margin-left: 550px;width: 400px;height: 638px}
+#registe{border-bottom: 1px solid #000;background-color: #F5DEB3;color: black;height: 70px;}
+#registe span{font-size: 25px;position: relative;top: 20px;margin-left: 30px}
+
+#fileds_{padding: 25px}
+
+#textF input{display: block;margin-bottom: 19px;width: 330px;height: 13px;padding: 10px}
+#textF{border-bottom: 1px solid #000}
+
+#secFields{padding-top: 23px}
+#FLname1{height: 13px;padding: 10px;width: 135px;margin-right: 29px}
+#FLname2{height: 13px;padding: 10px;width: 135px;}
+#gender{padding: 10px;width: 350px;margin-top: 19px;margin-bottom: 25px}
+#type{padding: 10px;width: 350px;margin-top: 0px;margin-bottom: 25px}
+
+#che{width: 30px;height: 15px}
+#cheText{position: relative;top: -2px}
+
+#secFields{padding-bottom: 0px}
+
+#bott{background-color: #F5DEB3;color: black;height: 50px;position: relative;top: 0px;padding: 10px;border-bottom: 1px solid #000;border-top: 1px solid #000;margin-bottom: 50px}
+#bott input{width: 90px;height: 40px;background-color: #FFF5EE;border: none;margin-top: 20px;margin-left: 275px}
